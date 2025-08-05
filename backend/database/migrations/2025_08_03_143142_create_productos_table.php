@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->bigInteger('idmarca')->unsigned();
             $table->foreign('idmarca')->references('id')->on('marcas')->onDelete('cascade');
-            $table->string('nombre',50);
+            $table->string('nombre',60);
             $table->string('descripcion',100);
-            $table->string('precio',50);
+            $table->string('precio',80);
             $table->timestamps();
         });
     }
