@@ -48,6 +48,14 @@ class ProductoSeeder extends Seeder
             ],
             [
                 'idmarca'=>'2',
+                'nombre'=>'disco externo',
+                'descripcion'=>'1 tb',
+                'precio'=>'1600 Bs',
+                'created_at'=>now(),
+                'updated_at'=>now()
+            ],
+            [
+                'idmarca'=>'2',
                 'nombre'=>'estabilizador',
                 'descripcion'=>'estabilizador de tension automatico',
                 'precio'=>'800 Bs',
