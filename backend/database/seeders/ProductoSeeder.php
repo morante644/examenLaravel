@@ -45,6 +45,14 @@ class ProductoSeeder extends Seeder
                 'precio'=>'1500 Bs',
                 'created_at'=>now(),
                 'updated_at'=>now()
+            ],
+            [
+                'idmarca'=>'2',
+                'nombre'=>'estabilizador',
+                'descripcion'=>'estabilizador de tension automatico',
+                'precio'=>'800 Bs',
+                'created_at'=>now(),
+                'updated_at'=>now()
             ]
             ]);
     }
